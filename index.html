@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Message Ease - Smart SMS Messenger</title>
+    <meta
+      name="description"
+      content="Message Ease is a smart, fast, and secure SMS messenger with scheduled messages, spam blocking, private conversations, themes, stickers, and quick replies."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Message Ease home">
+        <img src="assets/message-ease-logo.png" alt="" />
+        <span>Message Ease</span>
+      </a>
+
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a>
+        <a href="privacy_policy.html">Privacy</a>
+        <a href="terms_of_service.html">Terms</a>
+      </nav>
+
+      <a class="nav-cta" href="https://play.google.com/store/apps/details?id=messages.sms.mms.text.messenger.easy">Get the app</a>
+      <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false" data-menu-button>
+        <i data-lucide="menu"></i>
+      </button>
+    </header>
+
+    <nav class="mobile-menu" aria-label="Mobile navigation" data-mobile-menu>
+      <a href="index.html">Home</a>
+      <a href="privacy_policy.html">Privacy</a>
+      <a href="terms_of_service.html">Terms</a>
+      <a href="#download">Download</a>
+    </nav>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Smart. Fast. Secure.</p>
+          <h1>Smart SMS, made simple.</h1>
+          <p class="hero-lede">
+            Message Ease brings everyday SMS into one polished inbox with quick replies, scheduled messages,
+            private conversations, spam blocking, and expressive chat themes.
+          </p>
+          <div class="hero-actions">
+            <a class="primary-button" href="https://play.google.com/store/apps/details?id=messages.sms.mms.text.messenger.easy">
+              <i data-lucide="download"></i>
+              Download Message Ease
+            </a>
+            <a class="secondary-button" href="#features">Explore features</a>
+          </div>
+          <div class="trust-row" aria-label="Product highlights">
+            <span><i data-lucide="shield-check"></i> Private box</span>
+            <span><i data-lucide="clock-3"></i> Schedule SMS</span>
+            <span><i data-lucide="ban"></i> Spam block</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" aria-label="Message Ease product preview">
+          <img src="assets/hero-message-ease.png" alt="Message Ease inbox and chat preview" />
+        </div>
+      </section>
+
+      <section class="intro-strip" aria-label="Message Ease benefits">
+        <article>
+          <strong>Organized inbox</strong>
+          <span>Unread, OTP, pinned, archived, and private conversations stay easy to scan.</span>
+        </article>
+        <article>
+          <strong>Safer messaging</strong>
+          <span>Block suspicious numbers and keep sensitive conversations behind a private lock.</span>
+        </article>
+        <article>
+          <strong>More personality</strong>
+          <span>Customize bubbles, backgrounds, stickers, emojis, and quick message replies.</span>
+        </article>
+      </section>
+
+      <section class="section-heading" id="features">
+        <p class="eyebrow">Core features</p>
+        <h2>Everything your SMS app should have, without the clutter.</h2>
+      </section>
+
+      <section class="feature-showcase" aria-label="Message Ease features">
+        <article class="feature-row">
+          <div class="feature-text">
+            <span class="icon-pill"><i data-lucide="message-circle"></i></span>
+            <h3>Smart and simple messaging</h3>
+            <p>Keep conversations clean with unread filters, OTP tabs, pinning, archiving, drafts, and fast actions.</p>
+          </div>
+          <div class="inbox-mockup" aria-label="Message Ease inbox preview">
+            <div class="mock-top">
+              <span></span>
+              <strong>Message Ease</strong>
+              <i data-lucide="search"></i>
+            </div>
+            <div class="mock-tabs">
+              <span>All</span>
+              <span>Unread</span>
+              <span>OTP</span>
+            </div>
+            <div class="mock-thread active">
+              <b>A</b>
+              <div>
+                <strong>Alice</strong>
+                <small>don't forget</small>
+              </div>
+              <em>12</em>
+            </div>
+            <div class="mock-thread">
+              <b>M</b>
+              <div>
+                <strong>Mom</strong>
+                <small>Could you accompany me?</small>
+              </div>
+              <em>99</em>
+            </div>
+            <div class="mock-thread">
+              <b>N</b>
+              <div>
+                <strong>Nancy</strong>
+                <small>Lunch today?</small>
+              </div>
+              <em>4</em>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-row reverse">
+          <div class="feature-text">
+            <span class="icon-pill"><i data-lucide="calendar-clock"></i></span>
+            <h3>Schedule SMS auto send</h3>
+            <p>Write a message now and send it later for birthdays, reminders, follow-ups, and important moments.</p>
+          </div>
+          <img src="assets/feature-schedule.png" alt="Scheduled SMS preview" />
+        </article>
+
+        <article class="feature-row">
+          <div class="feature-text">
+            <span class="icon-pill"><i data-lucide="lock-keyhole"></i></span>
+            <h3>Protect secret messages</h3>
+            <p>Move sensitive threads to a private box and keep them protected with passcode-style access.</p>
+          </div>
+          <img src="assets/feature-private.png" alt="Private message protection preview" />
+        </article>
+
+        <article class="feature-row reverse">
+          <div class="feature-text">
+            <span class="icon-pill"><i data-lucide="palette"></i></span>
+            <h3>Themes that feel like you</h3>
+            <p>Choose backgrounds, bubble styles, colors, font settings, stickers, emojis, and GIFs for a messenger that feels personal.</p>
+          </div>
+          <img src="assets/feature-themes.png" alt="Chat theme customization preview" />
+        </article>
+
+        <div class="capability-strip" aria-label="Additional Message Ease tools">
+          <article>
+            <span class="icon-pill small"><i data-lucide="shield-ban"></i></span>
+            <h3>Block unwanted spam</h3>
+            <p>Filter numbers and keywords before they interrupt your day.</p>
+          </article>
+          <article>
+            <span class="icon-pill small"><i data-lucide="send"></i></span>
+            <h3>Quick reply pop-up</h3>
+            <p>Answer from a floating reply box without switching apps.</p>
+          </article>
+          <article>
+            <span class="icon-pill small"><i data-lucide="sparkles"></i></span>
+            <h3>More expression</h3>
+            <p>Use stickers, emoji, GIFs, and custom chat styles.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="privacy-band" id="privacy">
+        <div>
+          <p class="eyebrow">Privacy first</p>
+          <h2>Built for messages that should stay yours.</h2>
+          <p>
+            Message Ease keeps security visible and easy to control, with private conversations, block lists,
+            muted threads, and clear conversation settings.
+          </p>
+        </div>
+        <div class="privacy-list">
+          <span><i data-lucide="lock"></i> Private conversation controls</span>
+          <span><i data-lucide="user-x"></i> Blacklist and keyword blocking</span>
+          <span><i data-lucide="bell-off"></i> Notification privacy options</span>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <img class="download-logo" src="assets/message-ease-logo.png" alt="" />
+        <p class="eyebrow">Available for Android</p>
+        <h2>Make SMS feel effortless again.</h2>
+        <p>Download Message Ease from Google Play and make everyday texting feel effortless again.</p>
+        <a class="primary-button" href="https://play.google.com/store/apps/details?id=messages.sms.mms.text.messenger.easy" aria-label="Download Message Ease on Google Play">
+          <i data-lucide="play"></i>
+          Get it on Google Play
+        </a>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="terms">
+      <a class="brand footer-brand" href="#top" aria-label="Message Ease home">
+        <img src="assets/message-ease-logo.png" alt="" />
+        <span>Message Ease</span>
+      </a>
+      <div class="footer-links">
+        <a href="privacy_policy.html" data-policy-link="privacy">Privacy Policy</a>
+        <a href="terms_of_service.html" data-policy-link="terms">Terms of Use</a>
+        <a href="mailto:support@example.com">Support</a>
+      </div>
+      <p>© 2026 Message Ease. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
